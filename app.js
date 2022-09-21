@@ -20,7 +20,7 @@ app.get('/contact', (req,res)=>{
 })
 
 app.post('/contact', (req,res)=>{
-    res.sendFile(__dirname + '/blog/templates/contact.html')
+    res.sendFile(__dirname + '/templates/contact.html')
 })
 
 app.listen(port, ()=>{
