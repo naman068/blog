@@ -1,0 +1,60 @@
+.blogpageheader{
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 40px;
+    margin-right: 460px;
+    margin-left: 460px;
+    border: 2px solid #8e0505;
+    background-color: rgb(234,190,190,0.25);
+    border-radius: 12px;
+    
+}
+
+.allblogcards{
+    display: block;
+    margin: auto;
+}
+
+.longcards{
+    display: flex; justify-content: center;
+    width: 1300px;
+    margin:auto;
+    margin-bottom: 60px;
+}
+
+.longcards img{
+    height: 170px;
+    width: 220px;
+    margin: 0px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.longcardstext{
+    display: block;
+    text-align: center;
+    background-color: #edb8b86b;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 7px;
+
+}
+
+.longcards button{
+    background-color: #be63588a;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    transition: 0.4s;
+}
+
+.longcards button:hover{
+    background-color: rgb(157 45 64 / 53%);
+    color: black;
+    cursor:pointer;
+    width: 190px;
+    height: 50px;
+}

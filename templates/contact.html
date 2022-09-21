@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDBLOG|CONTACT</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- navbar  -->
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href='/'><b>HOME</b></a>
+            </li>
+            <li>
+                <a href='/blogs'><b>BLOGS</b></a>
+            </li>
+            <li>
+                <a href='/contact'><b>CONTACT</b></a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end  -->
+
+    <section class="contactform">
+        <h1>Contact Us</h1>
+        <form class= "form" action="/contact" method="POST">
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" placeholder="Enter your First name">
+            
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" placeholder="Enter your Last name">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your Email Id">
+            
+            <label for="phone">Phone</label>
+            <input type="phone" name="phone" placeholder="Enter your Phone number">
+            
+            <label for="message">Message</label>    
+            <textarea name="message" id="message" cols="80" rows="7" placeholder="How can we help you?"></textarea>
+            <button onclick="alert('Your Form has been submitted successfully')">SUBMIT</button>
+        </form>
+
+    </section>
+    <!-- footer  -->
+    <footer class="footer">
+        <h1 style="margin-bottom:0px ;">Medblogs©</h1>
+        <p style="margin-bottom:33px; font-size: large;">All rigths are reserved & belong to Medblogs</p>
+        <a href="/blogs">BLOGS</a>
+        <a href="contact">CONTACT US</a>
+        <h2 style="padding-top:12px ; font-family: Georgia, 'Times New Roman', Times, serif;">Follow us</h2>
+          
+        <div class="icons">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>   
+        <ion-icon name="logo-twitter"></ion-icon>   
+    </div>  
+
+    </footer>
+  
+</body>
+</html>
