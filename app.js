@@ -4,7 +4,7 @@ const app = express()
 const port = 80
 
 app.use('/css',express.static(__dirname + '/css'));
-app.use('/img',express.static(__dirname + '/img'));
+app.use('/img',express.static(__dirname + '/blog/img'));
 
 
 app.get('/', (req,res)=>{
