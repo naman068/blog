@@ -16,7 +16,7 @@ app.get('/blogs', (req,res)=>{
 })
 
 app.get('/contact', (req,res)=>{
-    res.sendFile(__dirname + '/templates/contact.html')
+    res.sendFile(__dirname + '/blog/templates/contact.html')
 })
 
 app.post('/contact', (req,res)=>{
