@@ -1,0 +1,135 @@
+/* media queries */
+/* for phones */
+
+@media screen and (max-width:480px){
+    /* index html */
+    .navbar{
+        display: inline-flex;justify-content: center;
+        max-width: 100%;
+        margin: auto;
+    }
+    .navbar ul li a{
+        font-size: small;
+        margin: 40px;
+    }
+
+    .introleft img{
+        border-radius: 10%;
+        height: 120px
+    }
+    .introright{
+        display:block;
+        font-size: 12px;
+        height: auto;
+        width: 100%;
+        font-size: 12px;
+         padding-top: 3px;
+        
+    }
+
+    .about hr{
+        margin-top: 25px;
+    }
+    .about div p{
+        margin:auto; 
+        font-size: 10px;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+    #header_highlights{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .blogcards{
+        width: auto;
+        display: block;
+    }
+    .card img{
+        height: 155px;
+        width: 100%;
+    }
+    .footer a{
+        font-size: medium;
+    }
+    /* end index html */
+
+    /* blogs html  */
+    .blogpageheader{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .longcards{
+        width: auto;
+        display: block;
+    }
+    .longcards img{
+        height: 150px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .longcardstext h3{
+        font-size: smaller;
+        margin: auto;
+        padding-top: 10px;
+    }
+    /* end blogs html  */
+
+    /* contact html */
+    .contactform{
+        width: auto;
+    }
+    .form textarea{
+        max-width: 300px;
+    }
+}
+
+/* for tablets */
+
+@media screen and (max-width:950px) and (min-width:480px){
+    /* index html */
+    .navbar{
+        display: inline-flex;justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .introright{
+        display:block;
+        height: auto;
+        width: 100%;
+        font-size: 15px;
+        padding-top: 3px;
+    }
+
+    .introleft img{
+        height: 180px
+    }
+    .blogcards{
+        width: auto;
+    }
+
+    .card img{
+        height: 150px;
+    }
+    .card_desc{
+        font-size: small;
+    }
+    /* end index html */
+    
+    /* blog html */
+    .blogpageheader{
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .longcards{
+        width: auto;
+    }
+    .longcards img{
+        height: auto;
+    }
+    /* end blog html */
+}
